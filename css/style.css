@@ -1,0 +1,68 @@
+body {
+    background: #1F1D1E;//090226;
+}
+
+#header {
+    position: fixed;
+    height: 120px;
+    background: #5E5E61;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#contents {
+    margin-top: 140px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a {
+    color: #fff;//#0077FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active{
+    color: #dddddd;
+    text-decoration: none;
+}
+
+#textbox{
+    text-align: justify;
+    margin-left: 50px;
+    width: 400px;
+}
+
+@font-face
+{
+    font-family: Aaargh;
+    src: url(fonts/Aaargh/Aaargh.ttf);
+}
+
+.main{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Aaargh, Helvetica, Georgia;
+}
+
+.mainbig{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Aaargh, Helvetica, Georgia;
+}
+
+.textfont{
+    font-size: 16px;
+    color: #fff;
+    font-family: Aaargh, Helvetica, Georgia;
+}
+
+.textfontsmall{
+    font-size: 10px;
+    font-family: Aaargh, Helvetica, Georgia;
+}
