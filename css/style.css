@@ -1,5 +1,5 @@
 body {
-    background: #1F1D1E;//090226;
+    background: #1F1D1E;
 }
 
 #header {
@@ -12,13 +12,13 @@ body {
 }
 
 #contents {
-    margin-top: 140px;
+    margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 a {
-    color: #fff;//#0077FF;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
