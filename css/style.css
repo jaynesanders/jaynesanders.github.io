@@ -39,6 +39,12 @@ ul.nav li a {
     font-family: Aaargh, Helvetica, Georgia;   
 }
 
+ul.nav li a {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Aaargh, Helvetica, Georgia;   
+}
+
 #contents {
     margin-top: 100px;
     margin-left: 50px;
