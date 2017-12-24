@@ -23,8 +23,8 @@ ul.nav {
     margin: 0;
     padding: 0;
     width: 25%;
+    position: relative;
     height: 100%;
-    position: fixed;
     overflow: auto;
 }
 
