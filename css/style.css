@@ -39,7 +39,8 @@ ul.nav li a {
     font-family: Aaargh, Helvetica, Georgia;   
 }
 
-ul.nav li a {
+ul.nav li a h1 {
+    background-color: #0E5E61;
     font-size: 30px;
     font-weight: bold;
     font-family: Aaargh, Helvetica, Georgia;   
