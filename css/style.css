@@ -22,17 +22,15 @@ ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;    
-}
-
-ul.nav li {
-    float: left;
-    display: block;
-    height: 120px;
-    background: #5E5E61;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
 ul.nav li a {
+    display: block;
+    height: 120px;
+    background: #5E5E61;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
