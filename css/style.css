@@ -24,7 +24,7 @@ ul.nav {
     padding: 0;
     width: 100%;
     position: relative;
-    height: auto;
+    height: 70px;
     overflow: auto;
 }
 
