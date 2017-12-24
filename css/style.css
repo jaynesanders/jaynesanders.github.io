@@ -18,12 +18,12 @@ body {
     right: 0;
 }
 
-#header ul {
+ul.nav {
     margin: 0;
     padding: 0;
 }
 
-#header li {
+ul.nav li {
     float: left;
     display: block;
     position: fixed;
@@ -31,7 +31,7 @@ body {
     background: #5E5E61;
 }
 
-#header li a {
+ul.nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
