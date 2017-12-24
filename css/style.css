@@ -29,6 +29,7 @@ ul.nav {
 }
 
 ul.nav li a {
+    float: left;
     display: block;
     background: #5E5E61;
     padding: 14px 16px;
@@ -36,6 +37,13 @@ ul.nav li a {
     font-size: 16px;
     font-weight: bold;
     font-family: Aaargh, Helvetica, Georgia;   
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
 }
 
 #contents {
