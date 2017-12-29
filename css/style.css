@@ -9,7 +9,7 @@ body {
 }
 
 #header {
-    position: fixed;
+    position: relative;
     height: 70px;
     margin-left: 10%;
     width: 100%;
@@ -47,6 +47,7 @@ ul.nav li a h1 {
 }
 
 #contents {
+    position: relative;
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
