@@ -18,11 +18,11 @@ body {
 }
 
 #title {
-    position: relative;
+    position: fixed;
     height: 100%;
 }
 
-h1 {
+#title h1 {
     padding-bottom: -20px;
     font-size: 30px;
     font-weight: bold;
