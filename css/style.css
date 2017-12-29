@@ -4,8 +4,8 @@ body {
 
 @font-face
 {
-    font-family: Aaargh;
-    src: url(fonts/Aaargh/Aaargh.ttf);
+    font-family: courier-prime;
+    src: url('fonts/courier-prime/Courier Prime.ttf');
 }
 
 #header {
