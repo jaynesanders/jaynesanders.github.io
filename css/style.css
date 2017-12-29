@@ -1,5 +1,5 @@
 body {
-    background: #1F1D1E;
+    background: #ffffff;
 }
 
 @font-face
@@ -72,25 +72,32 @@ a:active{
     width: 400px;
 }
 
-.main{
+.main {
     font-size: 16px;
     font-weight: bold;
     font-family: Aaargh, Helvetica, Georgia;
 }
 
-.mainbig{
+.mainbig {
     font-size: 40px;
     font-weight: bold;
     font-family: Aaargh, Helvetica, Georgia;
 }
 
-.textfont{
+.textfont {
     font-size: 16px;
-    color: #fff;
+    color: #000000;
     font-family: Aaargh, Helvetica, Georgia;
 }
 
-.textfontsmall{
+.textfontsmall {
+    color: #000000;
+    font-size: 10px;
+    font-family: Aaargh, Helvetica, Georgia;
+}
+
+.textfontsmall a {
+    color: #000000;
     font-size: 10px;
     font-family: Aaargh, Helvetica, Georgia;
 }
