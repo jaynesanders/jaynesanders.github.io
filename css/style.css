@@ -11,6 +11,7 @@ body {
 #header {
     position: fixed;
     height: 70px;
+    margin-left: 10%;
     width: 100%;
     background-color: #0E5E61;
     top: 0;
@@ -47,8 +48,8 @@ ul.nav li a h1 {
 
 #contents {
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 a {
