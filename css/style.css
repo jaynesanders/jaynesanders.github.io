@@ -101,31 +101,3 @@ a:active{
     font-size: 10px;
     font-family: Aaargh, Helvetica, Georgia;
 }
-
-#lightbox {
-	background-color:#eee;
-	padding: 0px;
-	border-bottom: 0px solid #666;
-	border-right: 0px solid #666;
-}
-
-#lightboxDetails {
-	font-size: 0.8em;
-	padding-top: 0.4em;
-}
-
-#lightboxCaption {
-    float: left;
-}
-
-#keyboardMsg{
-    float: right;
-}
-
-#lightbox img {
-    border: none;
-} 
-
-#overlay img{
-    border: none;
-}
