@@ -31,12 +31,17 @@ ul.nav {
 ul.nav li a {
     float: left;
     display: block;
+    color: #FFFFFF;
     background: #5E5E61;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     font-family: Aaargh, Helvetica, Georgia;   
+}
+
+ul.nav li a {
+    color: #000000;
 }
 
 ul.nav li a h1 {
@@ -54,17 +59,17 @@ ul.nav li a h1 {
 }
 
 a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-a:hover {
     color: #000000;
     text-decoration: none;
 }
 
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 a:active{
-    color: #dddddd;
+    color: #DDDDDD;
     text-decoration: none;
 }
 
