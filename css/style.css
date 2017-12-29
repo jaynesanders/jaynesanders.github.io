@@ -17,11 +17,6 @@ body {
     top: 0;
 }
 
-#title {
-    position: fixed;
-    height: 100%;
-}
-
 #title h1 {
     padding-bottom: -20px;
     font-size: 30px;
