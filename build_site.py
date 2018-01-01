@@ -1,4 +1,4 @@
-<html>
+head = """<html>
   <head>
     <title>Jayne Sanders</title>
     <script src='js/jquery-1.11.0.min.js'></script>
@@ -19,11 +19,22 @@
       </ul>
     </div>
     <div id="contents">
-<span class="textfont">
-<br>
-Email:  <a href="mailto:jaynesanders1967@yahoo.co.uk">jaynesanders1967@yahoo.co.uk</a>
-</span>
+"""
 
-    </div>
+tail = """    </div>
   </body>
 </html>
+"""
+
+import os
+
+folder_files = os.listdir('pages/')
+
+for file in folder_files:
+    f1 = open("pages/"+file, "r")
+    f2 = open(file, "w")
+    f2.write(head)
+    f2.write(f1.read())
+    f2.write(tail)
+    f1.close()
+    f2.close()
